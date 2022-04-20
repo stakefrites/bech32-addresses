@@ -25,7 +25,7 @@ const listOfPrefixes = ["akash", "juno", "cosmos", "sifchain"];
 
 3. Run
 ```
-yarn run
+yarn run go
 ```
 
 

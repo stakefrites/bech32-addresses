@@ -7,6 +7,6 @@
     "@cosmjs/encoding": "^0.28.4"
   },
   "scripts": {
-    "run": "node index.js"
+    "go": "node index.js"
   }
 }

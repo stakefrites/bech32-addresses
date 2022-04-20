@@ -7,10 +7,10 @@ const listOfPrefixes = ["akash", "juno", "cosmos", "sifchain"];
 let addressesMap = {};
 for (let add of listOfAddresses) {
     let decoded = fromBech32(add);
-    addressesMap[add] = [];
+    addressesMap[add] = {};
     for (let prefix of listOfPrefixes) { 
         let address = toBech32(prefix, decoded.data);
-        addressesMap[add].push(address)
+        addressesMap[add][prefix] = address
     }
 }
 
