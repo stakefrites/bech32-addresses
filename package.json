@@ -1,0 +1,12 @@
+{
+  "name": "bech32-adresses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@cosmjs/encoding": "^0.28.4"
+  },
+  "scripts": {
+    "run": "node index.js"
+  }
+}
